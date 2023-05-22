@@ -12,30 +12,30 @@
 <body>
     <h1 style="text-align: center;"> Hello Champs, lets do this!</h1>
     <section class="container">
-        <form id="form1">
+        <form id="form1" method="post" action="">
             <div>
                 <label for="fname">First Name:</label><br>
-                <input type="text" id="fname" placeholder="first name" autofocus><br>
+                <input type="text" id="fname" name="fname" placeholder="first name" autofocus><br>
             </div>
 
             <div>
                 <label for="lname">Last Name:</label><br>
-                <input type="text" id="lname" placeholder="last name" autofocus><br>
+                <input type="text" id="lname" name="lname" placeholder="last name" autofocus><br>
             </div>
 
             <div>
                 <label for="dob">Date of Birth</label><br>
-                <input type="date" id="dob" autofocus><br><br>
+                <input type="date" id="dob" name="dob" autofocus><br><br>
             </div>
 
-            <input class="btn" type="submit" value="Submit" onclick="alert('Thank you Champ!')"><br><br>
+            <input class="btn" type="submit" value="Submit"><br><br>
 
         </form>
 
         <ul id="champs"></ul>
 
     </section>
-
+    <span id="span1"></span>
     <script src="champion.js"></script>
 </body>
 
