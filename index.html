@@ -5,16 +5,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="champion.css" />
-    <title>Champions registration </title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Students</title>
 </head>
 
 <body>
-    <h1 style="text-align: center;"> Hello Champs, lets do this!</h1>
+    <h1 style="text-align: center;"> Students list!</h1>
     <section class="container">
-
+        <table id="student" style="width: 100%;">
+            <thead>
+                <tr>
+                    <div id="header">
+                        <th> # </th>
+                        <th> StudentID </th>
+                        <th> First name </th>
+                        <th> Last name </th>
+                        <th> Email </th>
+                        <th> Phone </th>
+                        <th> City </th>
+                        <th> CreatedAt </th>
+                        <th> UpdatedAt </th>
+                    </div>
+                </tr>
+            </thead>
+            <!-- tbody tag to group body content in an HTML table -->
+            <tbody id="student-info"></tbody>
+        </table>
     </section>
-    <span id="span1"></span>
     <script src="index.js"></script>
 </body>
 
